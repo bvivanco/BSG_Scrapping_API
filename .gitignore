@@ -1,0 +1,22 @@
+# Credenciales — NUNCA subir
+.env
+*.key
+credenciales*.json
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Salidas generadas por los scripts
+salidas/*
+!salidas/.gitkeep
+
+# Sistema
+.DS_Store
+Thumbs.db

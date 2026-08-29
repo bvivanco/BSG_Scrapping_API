@@ -1,0 +1,50 @@
+{
+  "pedido_id": 1043,
+  "fecha": "2026-08-21",
+  "estado": "en_ruta",
+  "cliente": {
+    "nombre": "Ana Torres",
+    "email": "ana.torres@example.com",
+    "documento": {
+      "tipo": "DNI",
+      "numero": "45871236"
+    },
+    "direccion": {
+      "calle": "Av. Javier Prado Este 4200",
+      "distrito": "Surco",
+      "ciudad": "Lima",
+      "pais": "Perú"
+    }
+  },
+  "items": [
+    {
+      "producto": "Laptop Lenovo ThinkPad",
+      "sku": "LEN-TP-14",
+      "cantidad": 1,
+      "precio_unitario": 3200.0,
+      "categorias": ["computo", "laptops"]
+    },
+    {
+      "producto": "Mouse inalámbrico Logitech",
+      "sku": "LOG-MX-3",
+      "cantidad": 2,
+      "precio_unitario": 45.5,
+      "categorias": ["accesorios"]
+    },
+    {
+      "producto": "Hub USB-C 7 en 1",
+      "sku": "HUB-C7",
+      "cantidad": 1,
+      "precio_unitario": 129.9,
+      "categorias": ["accesorios", "conectividad"]
+    }
+  ],
+  "envio": {
+    "courier": "Olva Courier",
+    "costo": 15.0,
+    "tracking": "OLV-2026-884512",
+    "entregado": false
+  },
+  "pagado": true,
+  "cupon": null
+}

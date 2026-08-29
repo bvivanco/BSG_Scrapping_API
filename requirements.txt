@@ -1,0 +1,12 @@
+# Capítulos 1 y 2 — APIs y JSON
+requests>=2.31.0
+pandas>=2.0.0
+python-dotenv>=1.0.0
+
+# Capítulos 3 y 4 — Web Scraping
+beautifulsoup4>=4.12.0
+lxml>=5.0.0
+openpyxl>=3.1.0          # solo para exportar a Excel (.xlsx)
+
+# Opcional — demo de Scrapy (scrapy_demo/). NO se instala en clase.
+# scrapy>=2.11.0
